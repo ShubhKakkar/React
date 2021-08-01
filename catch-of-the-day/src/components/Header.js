@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header() {
+function Header(props) {
   return (
     <div>
       <header className="top">
@@ -13,7 +13,7 @@ function Header() {
           day
         </h1>
         <h3 className="tagline">
-          <span>Fresh Seafood Market</span>
+          <span>{props.tagline}</span>
         </h3>
       </header>
     </div>
