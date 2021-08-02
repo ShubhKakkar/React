@@ -10,7 +10,7 @@ function Navbar() {
   }
     return (
       <div>
-        <nav className="container mx-auto flex items-center justify-between py-3 px-3">
+        <nav className="container mx-auto flex items-center justify-between py-3 px-3 w-4/5">
           <Link to="/" className="mx-2">
             <img src="/images/logo.png" alt="logo" style={{ height: 45 }} />
           </Link>
