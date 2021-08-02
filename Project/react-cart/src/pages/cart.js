@@ -1,11 +1,11 @@
 import React from 'react';
 
-function about() {
+function cart() {
     return (
         <div>
-            <h2>About Page</h2>
+            <h2>Cart Page</h2>
         </div>
     )
 }
 
-export default about;
+export default cart;
