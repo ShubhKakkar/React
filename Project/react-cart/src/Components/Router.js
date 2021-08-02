@@ -5,6 +5,7 @@ import products from "../pages/products";
 import cart from "../pages/cart";
 import notFound from "../pages/notFound";
 import Navbar from "../Components/Navbar";
+import SingleProduct from '../Components/SingleProduct';
 
 
 const Router = () => {
@@ -14,7 +15,8 @@ const Router = () => {
         <Navbar />
         <Switch>
           <Route path="/" exact component={home}></Route>
-          <Route path="/products" component={products}></Route>
+          <Route path="/products" component={products} exact></Route>
+          <Route path="/products/:id" component={SingleProduct}></Route>
           <Route path="/cart" component={cart}></Route>
           <Route component={notFound}></Route>
         </Switch>

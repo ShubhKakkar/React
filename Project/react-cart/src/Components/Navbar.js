@@ -10,16 +10,16 @@ function Navbar() {
   }
     return (
       <div>
-        <nav className="container mx-auto flex items-center justify-between py-3 px-3 w-4/5">
-          <Link to="/" className="mx-2">
+        <nav className="container mx-auto flex items-center justify-between py-3  w-4/5">
+          <Link to="/">
             <img src="/images/logo.png" alt="logo" style={{ height: 45 }} />
           </Link>
           <ul className="flex items-center">
             <li className="mx-2">
-              <Link to="/">Home</Link>
+              <Link to="/" className="font-bold">Home</Link>
             </li>
             <li className="mx-2">
-              <Link to="/products">Products</Link>
+              <Link to="/products" className="font-bold">Products</Link>
             </li>
             <li>
               <Link to="/cart">
