@@ -6,7 +6,7 @@ import cart from "../pages/cart";
 import notFound from "../pages/notFound";
 import Navbar from "../Components/Navbar";
 import SingleProduct from '../Components/SingleProduct';
-import { CartContext } from '../CartContext';
+import  CartContext  from '../CartContext';
 
 
 const Router = () => {
